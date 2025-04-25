@@ -46,13 +46,13 @@ export default function PortfolioGrid({ items }: PortfolioGridProps) {
     // Dispatch custom navigation event
     document.dispatchEvent(
       new CustomEvent("routeChangeStart", {
-        detail: { url: `/${slug}` },
+        detail: { url: `/portfolio/${slug}` },
       })
     );
 
     // Navigate programmatically after a slight delay to allow for exit animations
     setTimeout(() => {
-      router.push(`/${slug}`);
+      router.push(`/portfolio/${slug}`);
     }, 300);
   };
 
