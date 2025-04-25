@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom cursor styles */
+.portfolio-item {
+  cursor: none;
+}
+
+/* Hide default cursor when hovering portfolio items */
+.group:hover {
+  cursor: none;
+}
+
+/* Apply to related items in detail page as well */
+.portfolio-related-item:hover {
+  cursor: none;
+}
