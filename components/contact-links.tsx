@@ -9,10 +9,14 @@ export default function ContactLinks() {
     <div className="sm:h-full h-screen bg-white flex flex-col justify-between">
       <Header />
       <section className="grid gap-2 bg-white px-5 sm:px-20 py-5 sm:py-24 text-black">
+        <FlipLink href="#">Email</FlipLink>
+        <FlipLink href="#">Phone</FlipLink>
         <FlipLink href="#">Twitter</FlipLink>
         <FlipLink href="#">Linkedin</FlipLink>
         <FlipLink href="#">Facebook</FlipLink>
-        <FlipLink href="#">Instagram</FlipLink>
+        <FlipLink href="https://www.instagram.com/puneeth.photography_?igsh=aXdieDY1d3h6MXY4">
+          Instagram
+        </FlipLink>
       </section>
       <Footer />
     </div>

@@ -7,15 +7,15 @@ export default function Footer() {
             CONTACT BELOW FOR COLLABORATIONS
           </p>
           <a
-            href="mailto:Studio@kylegalvin.com"
+            href="mailto:puneethphotography4@gmail.com"
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal underline underline-offset-8 block transition-all duration-300 hover:text-gray-600 hover:underline-offset-4"
           >
-            STUDIO@KYLEGALVIN.COM
+            PUNEETHPHOTOGRAPHY4@GMAIL.COM
           </a>
         </div>
         <div className="text-xs sm:text-sm space-y-4 lg:space-y-6 flex flex-col items-start">
           <a
-            href="#"
+            href="https://www.instagram.com/puneeth.photography_?igsh=aXdieDY1d3h6MXY4"
             className="underline underline-offset-4 flex items-center gap-1 group transition-all duration-300 hover:text-gray-600"
           >
             INSTAGRAM{" "}
@@ -24,10 +24,10 @@ export default function Footer() {
             </span>
           </a>
           <a
-            href="#"
+            href="https://wa.me/message/N5MPMOGSMTIQJ1"
             className="underline underline-offset-4 flex items-center gap-1 group transition-all duration-300 hover:text-gray-600"
           >
-            TWITTER{" "}
+            WHATSAPP{" "}
             <span className="inline-block transform no-underline transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
               ↗
             </span>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row justify-between text-xs sm:text-sm pt-4 border-t border-gray-100">
-        <p>© KYLE GALVIN 2023</p>
+        <p>© PUNEETH SWAROOP 2025</p>
         <a
           href="#"
           className="underline underline-offset-4 mt-2 sm:mt-0 transition-all duration-300 hover:text-gray-600 hover:underline-offset-2"

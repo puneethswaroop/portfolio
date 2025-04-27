@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Header() {
   const pathname = usePathname();
@@ -70,7 +71,10 @@ export default function Header() {
   const navItems = [
     { label: "PORTFOLIO", path: "/" },
     { label: "BIO", path: "/bio" },
-    { label: "INSTAGRAM", path: "/instagram" },
+    {
+      label: "INSTAGRAM",
+      path: "https://www.instagram.com/puneeth.photography_?igsh=aXdieDY1d3h6MXY4",
+    },
     { label: "CONTACT", path: "/contact" },
   ];
 
@@ -183,23 +187,16 @@ export default function Header() {
         animate={isVisible ? "visible" : "hidden"}
         variants={headerVariants}
       >
-        <div className="flex items-center justify-between py-5 px-6 md:px-12 lg:px-20">
+        <div className="flex items-center justify-between  px-6 md:px-12 lg:px-20">
           {/* Logo */}
-          <Link href="/" className="text-xl tracking-widest font-medium">
-            <div className="flex items-center">
-              <span>K</span>
-              <span className="relative top-[-5px] mx-[1px]">Y</span>
-              <span className="relative top-[1px]">ˉ</span>
-              <span>E</span>
-            </div>
-            <div className="flex items-center">
-              <span>G</span>
-              <span>A</span>
-              <span className="relative top-[1px]">ˍ</span>
-              <span>V</span>
-              <span>I</span>
-              <span>N</span>
-            </div>
+          <Link href="/" className="">
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={200}
+              height={200}
+              className="sm:w-56 w-40 h-24 object-cover"
+            />
           </Link>
 
           {/* Mobile menu button with icons */}
