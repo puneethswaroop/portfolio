@@ -14,6 +14,9 @@ export default function CategoryFilter() {
     { id: "celebrity", name: "CELEBRITY" },
     { id: "beauty", name: "BEAUTY" },
     { id: "fashion", name: "FASHION" },
+    { id: "wedding", name: "WEDDING" },
+    { id: "jewellery", name: "JEWELLERY" },
+    { id: "couture", name: "COUTURE" },
   ];
 
   useEffect(() => {

@@ -18,7 +18,7 @@ export default async function page() {
           {/* Image Section */}
           <div className="relative aspect-[3/4] overflow-hidden mx-auto md:mx-0 w-full max-w-[400px]">
             <Image
-              src="/1.jpg"
+              src="/profile_pic.jpg"
               alt="Puneeth Swaroop Image"
               className="object-cover w-full h-full"
               width={400}
@@ -52,23 +52,20 @@ export default async function page() {
 
           {/* Bio Sections */}
           <div className="leading-8 tracking-wide col-span-1 md:col-span-1">
-            Kyle Galvin is a British photographer in the fashion and beauty
-            industry. He has established himself working with some of the most
-            influential celebrities and brands across the globe. Graduating from
-            the London College of Fashion, the British Journal of Photography
-            named him in their
+            Crafting Beautiful Experiences
           </div>
           <div className="leading-8 tracking-wide col-span-1 md:col-span-1">
-            annual "Ones to Watch" class of 2015. Since then, his advertising
-            clients include Armani Beauty, Bvlgari, Carolina Herrera, CHANEL,
-            Dior Beauty, Estee Lauder, Fendi and Paco Rabanne. Galvin has both
-            produced and been published in internationally recognised
+            I’m Puneeth Swaroop, a lifestyle photographer and videographer based
+            in Hyderabad. With a passion for storytelling, I have been capturing
+            meaningful portraits for years, drawing inspiration from the great
+            photographers of our time. My focus lies in revealing the emotions
+            and stories behind every face, seizing those fleeting, powerful
+            moments that speak volumes.
           </div>
           <div className="leading-8 tracking-wide col-span-1 md:col-span-1">
-            titles and his credits include Marie Claire, WWD, Glamour Magazine,
-            and Grazia, among others. His work oscillates between natural beauty
-            and a more hyperreal and surrealist style, with a consistent thread
-            of high glamour throughout.
+            In addition to portraiture, I am deeply interested in fashion and
+            art photography, continually pushing boundaries to merge creativity
+            with authenticity.
           </div>
         </div>
 

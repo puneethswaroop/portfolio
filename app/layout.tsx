@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio Gallery",
+  title: "Puneeth Swaroop Photography",
   description: "A beautiful portfolio gallery with category filtering",
 };
 
