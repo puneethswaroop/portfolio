@@ -3,19 +3,19 @@ export default function VideoRow() {
   const videos = [
     {
       id: 1,
-      src: "/videos/Final.MP4",
+      src: "/reel_1.mp4",
     },
     {
       id: 2,
-      src: "/videos/IMG_9469.MP4",
+      src: "/reel_2.mp4",
     },
     {
       id: 3,
-      src: "/videos/NIHARKA_REEL.MP4",
+      src: "/reel_3.mp4",
     },
     {
       id: 4,
-      src: "/videos/Reel3.MP4",
+      src: "/reel_4.mp4",
     },
   ];
 
