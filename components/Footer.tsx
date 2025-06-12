@@ -8,7 +8,7 @@ export default function Footer() {
           </p>
           <a
             href="mailto:puneethphotography4@gmail.com"
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal underline underline-offset-8 block transition-all duration-300 hover:text-gray-600 hover:underline-offset-4"
+            className="text-lg sm:text-3xl md:text-4xl lg:text-5xl font-normal underline underline-offset-8 block transition-all duration-300 hover:text-gray-600 hover:underline-offset-4"
           >
             PUNEETHPHOTOGRAPHY4@GMAIL.COM
           </a>
