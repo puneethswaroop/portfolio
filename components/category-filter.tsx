@@ -44,7 +44,7 @@ export default function CategoryFilter() {
   };
 
   return (
-    <div className="flex justify-center space-x-8 mb-12 mt-4">
+    <div className="flex sm:justify-center justify-start flex-wrap space-x-8 mb-12 mt-4">
       {categories.map((category) => (
         <button
           key={category.id}
