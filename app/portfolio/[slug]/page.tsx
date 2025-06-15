@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import type { Metadata, ResolvingMetadata } from "next";
 import { Suspense } from "react";
+import ImageLightbox from "@/components/ImageLightbox";
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> },
@@ -70,7 +71,7 @@ export default async function PortfolioItemPage({
           </h1>
 
           {/* Portfolio item content */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             {item.galleryImages.map((image, index) => (
               <div
                 key={index}
@@ -86,7 +87,8 @@ export default async function PortfolioItemPage({
                 />
               </div>
             ))}
-          </div>
+          </div> */}
+          <ImageLightbox images={item.galleryImages} />
 
           {/* Related items */}
           {relatedItems.length > 0 && (
