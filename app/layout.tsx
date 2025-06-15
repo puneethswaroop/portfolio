@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { NavigationEvents } from "@/components/navigation-events";
 import { Suspense } from "react";
+import SplashScreen from "@/components/SplashScreen";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({
         {children}
         <Suspense fallback={null}>
           <NavigationEvents />
+           <SplashScreen />
         </Suspense>
       </body>
     </html>
