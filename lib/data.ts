@@ -167,7 +167,7 @@ const portfolioData: PortfolioItem[] = [
     imageUrl: "/weddings/DSC00196.JPG",
     categories: ["wedding"],
     galleryImages: [
-      { url: "/Weddings/DSC00196.JPG" },
+     { url: "/Weddings/DSC00196.JPG" },
       { url: "/Weddings/DSC00942.JPG" },
       { url: "/Weddings/DSC01003.JPG" },
       { url: "/Weddings/DSC01018.JPG" },
