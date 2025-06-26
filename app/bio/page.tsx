@@ -35,7 +35,7 @@ export default async function page() {
               { label: "TWITTER", href: "#" },
               { label: "TIKTOK", href: "#" },
               { label: "MODELS.COM", href: "#" },
-              { label: "STUDIO@KYLEGALVIN.COM", href: "#" },
+              { label: "p.puneethswaroop@gmail.com", href: "#" },
             ].map((item) => (
               <a
                 key={item.label}
